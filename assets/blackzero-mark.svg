@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#CF2A2A" stop-opacity="0.85"/>
+      <stop offset="45%" stop-color="#9E1F1F" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="640" height="640" fill="#050505"/>
+  <circle cx="320" cy="320" r="240" fill="#050505" stroke="#CF2A2A" stroke-width="24"/>
+  <circle cx="320" cy="320" r="230" fill="url(#glow)"/>
+  <path d="M184 280c24-64 76-120 136-120s112 56 136 120c-40 16-88 26-136 26s-96-10-136-26z" fill="#C52828"/>
+  <path d="M220 280c12-52 56-92 100-92s88 40 100 92c-32 10-64 16-100 16s-68-6-100-16z" fill="#8A1919"/>
+  <path d="M256 352c0-40 28-72 64-72s64 32 64 72v72c0 48-28 88-64 88s-64-40-64-88v-72z" fill="#F2E7D1"/>
+  <path d="M256 360h128v40c-22 10-43 16-64 16s-42-6-64-16v-40z" fill="#050505"/>
+  <circle cx="284" cy="340" r="16" fill="#050505"/>
+  <circle cx="356" cy="340" r="16" fill="#050505"/>
+  <path d="M280 420c28 16 52 16 80 0" stroke="#050505" stroke-width="10" fill="none" stroke-linecap="round"/>
+</svg>
